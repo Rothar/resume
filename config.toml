@@ -1,6 +1,7 @@
 baseURL = "http://gla-resume.netlify.app/"
 languageCode = "en-us"
 title = "Curriculum Vitae - Guillaume Langonet"
+theme="flex-bp-hugo-cv"
 
 ignoreFiles = ["content/portfolio/\\.*","content/product/\\.*","content/sketch/\\.*","content/homepage/\\.*","content/post/\\.*","content/\\.*"] # disable example pages as this is a single page
 
@@ -21,7 +22,7 @@ enableRobotsTXT = true
 pygmentsCodeFences = true
 canonifyurls = true
 paginate = 6
-theme="flex-bp-hugo-cv"
+
 
 [sitemap]
     changefreq = "weekly"
