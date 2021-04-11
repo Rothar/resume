@@ -19,7 +19,7 @@ PersonalData:
       Value: glangonet@gmail.com
     - Icon: fas fa-globe
       Name: Web
-      Value: https://gla-resume.netlify.app
+      Value: http://gla-resume.netlify.app
     - Icon: far fa-calendar-alt
       Name: Date de naissance
       Value: 01.05.1976
