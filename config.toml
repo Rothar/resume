@@ -1,4 +1,4 @@
-baseURL = "http://gla-resume.netlify.app/"
+baseURL = "https://gla-resume.netlify.app/"
 languageCode = "en-us"
 title = "Curriculum Vitae - Guillaume Langonet"
 theme="flex-bp-hugo-cv"
