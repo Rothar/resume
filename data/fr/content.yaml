@@ -19,10 +19,10 @@ PersonalData:
       Value: glangonet@gmail.com
     - Icon: fas fa-globe
       Name: Web
-      Value: example.org
+      Value: https://gla-resume.netlify.app
     - Icon: far fa-calendar-alt
-      Name: Geburtstag
-      Value: 01.01.1111
+      Name: Date de naissance
+      Value: 01.05.1976
 
 BriefProfile:
   Title: Kurzprofil
