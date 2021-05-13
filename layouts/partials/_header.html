@@ -1,0 +1,7 @@
+{{ $data := (.Scratch.Get "content").PersonalData }}
+{{ with $data }}
+<h1>{{ .Name }} {{ .Suffix }}</h1>
+    {{ range .CurrentWorkplace }}
+    <div class="subtitle">{{ .Paragraph }}</div>
+    {{ end }}
+{{ end }}

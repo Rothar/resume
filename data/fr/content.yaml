@@ -3,7 +3,10 @@ PersonalData:
   Icon: fas fa-user
   Suffix: "- C.V."
   Name: Guillaume Langonet
-  CurrentWorkplace: En télétravail :-) 
+  CurrentWorkplace: 
+    - Paragraph: "Plus de 15 ans d’expérience dans le cadre de différentes TMA m’ont permis d’acquérir de réelles compétences au niveau de l’analyse du besoin, le suivi des projets voire le développement applicatif."
+    - Paragraph: "Issu d’une formation initiale atypique pour un consultant en informatique, la rédaction des documents et le contact client sont naturels et positifs."
+    - Paragraph: "Aujourd'hui j'élargis mon domaine technique du côté intégration/exploitation et aussi du Cloud (GCP/Azure). Le tout, en télétravail :-) " 
   Contacts:
     - Icon: fas fa-user
       Name: Nom
@@ -21,164 +24,190 @@ PersonalData:
       Name: Web
       Value: http://gla-resume.netlify.app
     - Icon: far fa-calendar-alt
-      Name: Date de naissance
+      Name: Naissance
       Value: 01.05.1976
 
 BriefProfile:
-  Title: Kurzprofil
+  Title: Résumé
   Icon: fas fa-th-list
   Sections:
-    - Name: Stärken
+    - Name: Domaines
       Items:
-        - Starkes Gebiss
-        - Schneller Sprint
-        - Große Sprungkraft
-    - Name: Fähigkeiten
+        - "Fonction publique : Assistance Publique - Hôpitaux de Paris"
+        - "Banque : BNP Paribas"
+        - "Distribution : Carrefour"
+        - "Industrie : Schneider Electric, Rexel"
+    - Name: Compétences professionnelles
       Items:
-        - Menschen finden
-        - Fressen
-    - Name: Zertifizierungen
+        - Animer des réunions
+        - Formaliser les besoins
+        - Rédiger la documentation
+        - Assurer l’assistance technique
+        - Estimer les charges
+        - Développer
+        - Administrer
+    - Name: Compétences techniques
       Items:
-        - Personenschützer
-        - Sicherheitsbeauftragter
+        - PHP, Java, PL/SQL, shell
+        - MYSQL 4.1+, Oracle 9+, PostgreSql 11
+        - Linux/Unix, Windows
+        - $Universe
+        - Apache, Tomcat, Jboss, Websphere
+        - Git, Bitbucket
+        - Novell eDirectory, BEA/Aqualogic
+        - Lotus Notes 4.6/5
+        - CMS (Spip, Joomla 1.5)
+        - "Framework Web : Zend 1.10+ (PHP), Freemarker (Java), Angular(js), Ionic 1.0 (Javascript)"
 
 Experience:
-  Title: Berufserfahrung
+  Title: Expérience professionnelle
   Icon: fas fa-briefcase
   Sections:
-    - Name: Rettungshund
-      Empolyer: ACME Polizei
-      Website: https://www.example.org
-      StartDate: 01/2018
-      EndDate: Heute
+    - Name: Administrateur/Intégrateur
+      Empolyer: Carrefour 
+      Employer: IBM Interactive
+      Website: https://www.carrefour.fr
+      StartDate: 05/2020
+      EndDate: Aujourd'hui
       Details:
-        - Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro.
-        - De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia.
-        - De apocalypsi gorger omero undead survivor dictum mauris.
-      Skills: ["Zombie", "ipsum", "inferno", "survivor", "undead"]
-    - Name: Rettungshund
-      Empolyer: ABCD Polizei
-      Website: https://www.example.com
-      StartDate: 06/2014
-      EndDate: 12/2017
+        - Membre d’une équipe dédiée (DevOps/SRE) pour l’intégration, l’exploitation, la mise en production logicielle de la ligne produit.
+        - Gestion des environnements (Linux, Unix, Windows), des bases de données et des batchs via ordonnanceur ($Universe).
+        - Mise en place des nouveaux environnements de supervision et de gestion des alertes dans le cadre du Cloud.
+      Skills: ["Linux/Unix", "$Universe", "GCP/Azure", "Git/Bitbucket"]
+    - Name: Analyste technique
+      Empolyer: REXEL
+      Employer: IBM Interactive
+      Website: https://www.rexel.fr
+      StartDate: 12/2019
+      EndDate: 03/2020
       Details:
-        - Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium. Qui animated corpse, cricket bat max brucks terribilem incessu zomby.
-        - The voodoo sacerdos flesh eater, suscitat mortuos comedere carnem virus.
-        - Zonbi tattered for solum oculi eorum defunctis go lum cerebro.
-      Skills: ["evil", "voodoo", "flesh eater"]
-    - Name: Rettungshund
-      Empolyer: XYZ Schutzhundestaffel
-      Website: https://www.example.com
-      StartDate: 01/2010
-      EndDate: 05/2014
+        - Optimisation d’une application Java Web à destination d’appareils mobiles sous Android.
+      Skills: ["Java", "Maven", "Websphere", "Oracle", "WebLogic"]
+    - Name: Analyste métier / AMOA
+      Empolyer: BNP Paribas
+      Employer: IBM Interactive
+      Website: https://group.bnpparibas
+      StartDate: 08/2016
+      EndDate: 07/2019
       Details:
-        - Cum horribilem walking dead resurgere de crazed sepulcris creaturis, zombie sicut de grave feeding iride et serpens.
-        - Pestilentia, shaun ofthe dead scythe animated corpses ipsa screams.
-        - Pestilentia est plague haec decaying ambulabat mortuos.
-        - Sicut zeder apathetic malus voodoo. Aenean a dolor plan et terror soulless vulnerum contagium accedunt, mortui iam vivam unlife.
-        - Qui tardius moveri, brid eof reanimator sed in magna copia sint terribiles undeath legionis.
-        - Alii missing oculis aliorum sicut serpere crabs nostram.
-      Skills: ["voodoo", "Pestilentia", "undeath"]
+        - Analyse et rédaction des expressions de besoin et des spécifications fonctionnelles d’applications Web PHP.
+        - Conception et spécifications techniques pour les équipes de développement offshore (Maroc, Roumanie).
+        - Tierce Maintenance Applicative Lotus Notes.
+      Skills: ["Maitrise d'ouvrage", "Conception", "Rédaction", "T.M.A."]
+    - Name: Analyste technique
+      Empolyer: IBM
+      Employer: IBM Interactive
+      Website: https://www.ibm.com
+      StartDate: 10/2015
+      EndDate: 07/2016
+      Details:
+        - Développement de Web App. Spécification fonctionnelle et technique de l’architecture. Installation logicielle et paramétrage serveurs.
+      Skills: ["Java", "AngularJS", "REST"]
+    - Name: AMOA / MOE / Chef de projet 
+      Empolyer: Assistance Publique - Hôpitaux de Paris
+      Employer: IBM Interactive
+      Website: https://aphp.fr
+      StartDate: 08/2006
+      EndDate: 09/2015
+      Details:
+        - "Chiffrages, spécifications technique et fonctionnelle et développement des applications Web (PHP, Java) et programmes batch (PL/SQL, Java)" 
+        - "Maintenance intranet BEA-Aqualogic et annuaire LDAP"
+        - "Gestion des comités de suivi et pilotage"
+        - "Gestion des audits internes"
+      Skills: ["Maitrise d'ouvrage", "Développement Web", "Chiffrages", "Gestion de projet", "Rédaction", "T.M.A."]
+    - Name: Ingénieur d’études 
+      Empolyer: Carrefour
+      Employer: S.I.I. / IBM I.
+      Website: https://www.carrefour.fr
+      StartDate: 01/2005
+      EndDate: 07/2006
+      Details:
+        - Tierce Maintenance Applicative Lotus Notes.
+        - Gestion des comités de suivi et pilotage.
+      Skills: ["T.M.A.", "Lotus Notes", "Chiffrages", "Suivi"]
+    - Name: Ingénieur développement 
+      Empolyer: Schneider Electric
+      Employer: Inexware
+      Website: https://www.se.com/fr/fr/
+      StartDate: 12/1999
+      EndDate: 03/2003
+      Details:
+        - Maintenance applicative et développement Lotus Notes
+        - Assistance aux utilisateurs, surveillance de la validité des données
+        - "Missions ponctuelles en tant que :"
+        - " >	 développeur (SOCIETE GENERALE Asset Management, Bureau Veritas)" 
+        - " >  formateur (IBM, CFA Léonard de Vinci, IB Formation, Afogec, LVMH)"
+      Skills: ["T.M.A.", "Lotus Notes", "Développement", "Formation"]
 
 AcademicEducation:
-  Title: Akademische Ausbildung
+  Title: Formation universitaire
   Icon: fas fa-university
   Sections:
-    - Name: Hunde Universität
-      Organisation: Hundeschule A
-      Website: https://www.example.com
-      StartDate: 01/2010
-      EndDate: 05/2014
-      Qualification: Master of Arts
-
-ProfessionalTraining:
-  Title: Berufsausbildung
-  Icon: fas fa-road
-  Sections:
-    - Name: Hunde Berusausbildung
-      Organisation: Hundeschule B
-      Website: https://www.example.com
-      StartDate: 01/2010
-      EndDate: 05/2014
-      Qualification: Rettungshund
-
-SchoolEducation:
-  Title: Schulische Ausbildung
-  Icon: fas fa-school
-  Sections:
-    - Name: Realschule
-      Organisation: ACME Realschule
-      Website: https://www.example.com
-      StartDate: 01/2010
-      EndDate: 05/2014
-      Qualification: Fachoberschulreife
+    - Name: Diplôme Universitaire Chef de projet informatique
+      Organisation: Université des Sciences et Techniques de Franche Comté
+      Website: http://sciences.univ-fcomte.fr/
+      StartDate: 2003
+      EndDate: 2004
+      Qualification: Besançon
+    - Name: Diplôme d’Etudes Supérieures Spécialisées en Bibliographie informatisée
+      Organisation: Université des Lettres et Sciences Humaines de Franche-Comté
+      Website: http://slhs.univ-fcomte.fr/
+      StartDate: 1998
+      EndDate: 1999
+      Qualification: Besançon
+    - Name: Maîtrise de philosophie
+      Organisation: Université des Lettres et Sciences Humaines de Franche-Comté
+      Website: http://slhs.univ-fcomte.fr/
+      StartDate: 1997
+      EndDate: 1998
+      Qualification: Besançon
 
 FurtherEducation:
-  Title: Weiterbildungen
+  Title: Expériences complémentaires
   Icon: fas fa-chalkboard-teacher
   Sections:
-    - Name: PersonalTrainer
-      Organisation: ACME Schule
-      Website: https://www.example.com
-      StartDate: 01/2010
-      EndDate: 05/2014
-      Qualification: PersonalTrainer A-Lizenz
-
-Diplomas:
-  Title: Zusatzqualifikationen
-  Icon: fas fa-certificate
-  Items:
-    - 01/2020 Sicut zeder apathetic malus voodoo
-    - 01/2020 Alii missing oculis aliorum
-    - 01/2020 Cum horribilem walking
-    - 01/2020 Qui tardius moveri
-
+    - Name: "Stage Diplôme Universitaire"
+      Organisation: Conseil Départemental de Haute-Saône
+      Website: https://www.haute-saone.com
+      StartDate: 2004
+    - Name: "Stage Diplôme d’Etudes Supérieures Spécialisées"
+      Organisation: Centre Régional du Livre de Franche-Comté
+      Website: https://www.facebook.com/crlfranchecomte/
+      StartDate: 1999  
+    - Name: "Chargé de communication"
+      Organisation: Eurocall'99
+      Website: https://journals.openedition.org/alsic/1652
+      StartDate: 1999  
+      
 Languages:
-  Title: Sprachkenntnisse
+  Title: Langues
   Icon: fas fa-language
   Items:
-    - Deutsch (Muttersprache)
-    - Englisch (KMK Fremdsprachenzertifikat - Stufe III - CEFR Level B2)
-
-Organizations:
-  Title: Organisationen
-  Icon: fas fa-users
-  Items:
-    - Hundeschule A
-    - Hundeschule B
-
-Skills:
-  Title: Fähigkeiten
-  Icon: fas fa-sliders-h
-  Items:
-    - Beißen
-    - Sitz
-    - Platz
-    - Aus
-    - Hol das Stöcken
+    - Français (langue maternelle)
+    - Anglais (professionnel)
+    - Espagnol (notions)
 
 Interests:
-  Title: Interessen
+  Title: Intérêts
   Icon: fas fa-chess
   Items:
-    - Tanzen
-    - Agility
-    - Schlafen
-    - Essen
+    - Tennis de Table
+    - Badminton
 
 Contacts2:
-  Title: Kontakt
+  Title: Contact
   Icon: fas fa-address-card
   Contacts:
     - Icon: fas fa-user
-      Name: Name
-      Value: Guter Junge
+      Name: Nom
+      Value: Guillaume LANGONET
     - Icon: fas fa-map-marker-alt
-      Name: Addresse
-      Value: xxx, 12345 xxxx
+      Name: Adresse
+      Value: 37 rue Ambroise CROIZAT 90000 Belfort
     - Icon: fas fa-mobile-alt
-      Name: Telefon
-      Value: +12 34567 89000
+      Name: Mobile
+      Value: +00 6 0807 4757
     - Icon: fas fa-envelope
       Name: Email
-      Value: guter.junge@example.org
+      Value: glangonet@gmail.com
+  

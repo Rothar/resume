@@ -1,0 +1,19 @@
+{{ $data := (.Scratch.Get "content").WebReferences }}
+{{ with $data }}
+<section id="section-{{ .Title | urlize }}">
+    <h2><i class="{{ .Icon }}"></i> {{ .Title }}</h2><br>
+    <div class="subtitle">{{ .Description }}</div><br>
+    
+    {{ range $data.Ressources }}
+    <div class="innerContainer">
+        <h3 class="innerLeft"><i class="{{ .Icon }}"></i> <a href="{{ .Url }}" target="_blank" rel="noopener noreferrer">{{ .Name }}</a></h3>
+        <div class="innerRight">
+            {{ range .Items }}
+                <p>{{ . }}</p>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+
+</section>
+{{ end }}

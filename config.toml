@@ -3,7 +3,8 @@ languageCode = "en-us"
 title = "Curriculum Vitae - Guillaume Langonet"
 theme="flex-bp-hugo-cv"
 
-ignoreFiles = ["content/portfolio/\\.*","content/product/\\.*","content/sketch/\\.*","content/homepage/\\.*","content/post/\\.*","content/\\.*"] # disable example pages as this is a single page
+# ignoreFiles = ["content/portfolio/\\.*","content/product/\\.*","content/sketch/\\.*","content/homepage/\\.*","content/post/\\.*","content/\\.*"] # disable example pages as this is a single page
+ignoreFiles = ["content/portfolio/\\.*"]
 
 DefaultContentLanguage = "fr"
 enableInlineShortcodes = true
@@ -43,7 +44,7 @@ paginate = 6
   # js=["/js/test_site.js"]
   # css=["/css/test_site.css"]
   # csscdn=["https://fonts.googleapis.com/css?family=Concert+One|Roboto&display=swap"]
-
+  
 
 [languages]
   [languages.fr]
@@ -56,6 +57,12 @@ paginate = 6
     title = "Resume"
     weight = 2
     [languages.en.params]
+
+  [languages.about]
+    languageName = "about"
+    #title = "about"
+    weight = 99
+    [languages.about.params]
   
 
 

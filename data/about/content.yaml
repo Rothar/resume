@@ -1,0 +1,46 @@
+WebReferences:
+  Title: "Crédits/références web"
+  Icon: "fas fa-thumbs-up"
+  Description: "Veuillez trouvez ci-dessous l'ensemble des ressources qui ont permis la mise en ligne de ce C.V.
+  Cliquez sur le titre des rubriques pour trouver tous les détails à la source."
+  Ressources:
+    - Name: "Framework : Hugo.io"
+      Items: 
+      - "Logiciel libre écrit en langage Go permettant de générer des sites web statiques"
+      Url : "https://gohugo.io/"
+      Icon: "fas fa-code"
+    - Name: Thème du site 
+      Items: 
+      - "Thème Hugo de Sebastian Piech"
+      Url : "https://themes.gohugo.io/flex-bp-hugo-cv/"
+      Icon: "fas fa-paint-brush"
+    - Name: "CMS : Forestry"
+      Items: 
+      - "Pour la création de ces pages Hugo est accompagné par Forestry"
+      Url : "https://app.forestry.io/"
+      Icon: "fas fa-tree"
+    - Name: "Hébergement du site : Netlify"
+      Items: 
+      - "Hébergement et cloud computing sans serveur pour les sites web statiques."
+      Url : "https://app.netlify.com/"
+      Icon: "fas fa-share"
+    - Name: Tutoriel Hugo/Forestry/Netlify
+      Items: 
+      - "Un petit tuto Youtube afin d'apprendre à créer et mettre en ligne son 1er site Hugo (en anglais)"
+      Url : "https://www.youtube.com/watch?v=ResipmZmpDU"
+      Icon: "fas fa-play"
+    - Name: Favicon
+      Items: 
+        - "Graphics Title: 27bf.svg"
+        - "Graphics Author: Copyright 2020 Twitter, Inc and other contributors (https://github.com/twitter/twemoji)"
+        - "Graphics Source: https://github.com/twitter/twemoji/blob/master/assets/svg/27bf.svg"
+        - "Graphics License: CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/)"
+      Url : "https://favicon.io/emoji-favicons/double-curly-loop/"
+      Icon: "fas fa-arrow-right"
+    - Name: Nuage de mots
+      Items: 
+      - "Créer une petite image pour illustrer le contenu du C.V."
+      Url : "https://nuagedemots.co/"
+      Icon: "fas fa-cloud"
+
+  

@@ -19,3 +19,26 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
 }
+
+.subtitle {
+    padding-bottom: 8px;
+}
+
+div.innerRight p a {
+    font-weight: bold;
+}
+
+nav.navbottom{
+    bottom: 0;
+    top: auto;
+    position: fixed;
+}
+nav.navbottom{
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+footer {
+    padding-top: 10px;;
+    text-align: right;
+}
