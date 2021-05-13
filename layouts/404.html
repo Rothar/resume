@@ -7,8 +7,9 @@
     {{- partial "head.html" . -}}
 </head>
 <body>
-    <h1>{{ i18n "error404" }}</h1>test
-    <a href="{{ "/" | relLangURL }}" class="card-link">{{ i18n "gotohome" }}</a>
+    <h1>{{ i18n "error404" }}</h1>
+    <br>
+    <h3><a href="{{ "/" | relLangURL }}" class="card-link">{{ i18n "gotohome" }}</a></h3>
 
     {{- partial "js.html" . -}}
 </body>
