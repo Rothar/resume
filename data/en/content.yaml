@@ -212,7 +212,3 @@ Contacts2:
     - Icon: fas fa-envelope
       Name: Email
       Value: glangonet@gmail.com
-
-WebReferences:
-  Label: "Credits"
-  Icon: fas fa-thumbs-up
