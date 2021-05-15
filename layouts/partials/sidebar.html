@@ -1,8 +1,8 @@
 {{ $photoimg := resources.Get "nuage-de-mots.png" }}
-{{ $alt := "Photo" }}
+{{ $alt := "nuage de mots" }}
 
 {{ if gt $photoimg.Width 320 }}
-    {{ $image := $photoimg.Resize "320x" }}
+    {{ $image := $photoimg.Resize "600x" }} 
     <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $alt }}" />
 {{ else }}
     <img src="{{ $photoimg.RelPermalink }}" width="{{ $photoimg.Width }}" height="{{ $photoimg.Height }}" alt="{{ $alt }}" />

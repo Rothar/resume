@@ -18,7 +18,7 @@ removePathAccents = true
 # Theme specific examples
 author = "Sebastian Pech"
 copyright = "Sebastian Pech"
-googleAnalytics = "G-R62YW5YNQN"
+#googleAnalytics = "G-R62YW5YNQN"
 enableRobotsTXT = true
 pygmentsCodeFences = true
 canonifyurls = true
@@ -39,7 +39,7 @@ paginate = 6
   name = "Guillaume Langonet"
 
 [params]
-  description = "D'étudiant en philo à... informaticien ? - From student in philosophy to... computer scientist ?"
+  description = "Curriculum Vitae : D'étudiant en philo à... informaticien ? - From student in philosophy to... computer scientist ?"
   customDateFormat = "01/2006" # "02.01.2006"
   # js=["/js/test_site.js"]
   # css=["/css/test_site.css"]
@@ -49,12 +49,12 @@ paginate = 6
 [languages]
   [languages.fr]
     languageName = "FR"
-    title = "C.V."
+    #title = "C.V."
     weight = 1
     [languages.fr.params]
   [languages.en]
     languageName = "EN"
-    title = "Resume"
+    #title = "Resume"
     weight = 2
     [languages.en.params]
 
