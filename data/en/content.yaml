@@ -5,7 +5,7 @@ PersonalData:
   Name: Guillaume Langonet
   CurrentWorkplace: 
     - Paragraph: "More than 15 years of experience as third-party applications maintenance allowed me to get strong skills about business needs analysis, projects monitoring and even applications development."
-    - Paragraph: "Coming from a non standard background for a computer scientist, I handle effortless documents writing et customer contact."
+    - Paragraph: "Coming from a non standard background for a computer scientist, I handle effortless documents writing and customer contact."
     - Paragraph: "Nowadays I increase my technical skills : integration, computer exploitation, Cloud (GCP/Azure)... enjoying teleworking :-) " 
   Contacts:
     - Icon: fas fa-user
