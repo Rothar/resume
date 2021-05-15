@@ -42,3 +42,14 @@ footer {
     padding-top: 10px;;
     text-align: right;
 }
+
+.subtitle {
+    color: #121212;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+body.dark-theme .subtitle {
+    color: #c0c0c0;
+}
