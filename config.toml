@@ -18,7 +18,7 @@ removePathAccents = true
 # Theme specific examples
 author = "Sebastian Pech"
 copyright = "Sebastian Pech"
-#googleAnalytics = "G-R62YW5YNQN"
+googleAnalytics = "UA-197935042-1"
 enableRobotsTXT = true
 pygmentsCodeFences = true
 canonifyurls = true
@@ -27,6 +27,7 @@ paginate = 6
 
 [sitemap]
     changefreq = "weekly"
+    filename = "sitemap.xml"
     priority = 0.5
 
 [permalinks]

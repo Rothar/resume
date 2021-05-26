@@ -2,3 +2,4 @@
 /resources/_gen/*
 /public/*
 *.log
+/themes/flex-bp-hugo-cv/exempleSite/*
